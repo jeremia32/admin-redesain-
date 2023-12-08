@@ -1,0 +1,52 @@
+/* .inputNavbar{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-right:4rem ;
+    align-items: center;    
+} */
+.container-fluid{
+    display: flex;
+}
+.nav-link:hover{
+    background-color: rgb(67, 63, 63);
+}
+
+.kanandas{
+    margin-right: 1rem;
+}
+
+    /* @media screen and (max-width: 991px) {
+        .inputNavbar {
+            width: fit-content;
+        }
+        .inputan{
+            width: ;
+        }
+    } */
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
+ 
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar {
+    height: 170vh;
+  }  
+
+  .icon-container {
+    display: flex; /* Use flexbox to make the icons appear in a row */
+    gap: 5px; /* Adjust the gap between the icons */
+}
+
+.table{
+    border-radius: 5px;
+}

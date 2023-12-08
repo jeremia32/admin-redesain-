@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <style>
+             body{
+                background-color: #f3f3f3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg  fixed-top " style="background-color: #048ABF;">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-light" href="#">
+                    <img src="logo.png" alt="IT Del">
+                </a>
+            </div>
+        </nav>
+
+        <div class="row no-gutters mt-5 ">
+            <div class="col-md-2 mt-3 bg-dark pt-5 sidebar">
+                <ul class="nav flex-column mb-3" style="margin-left: 1rem;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="admin.html">
+                            <i class="fa-solid fa-gauge"></i>&nbsp;&nbsp; Dashboard
+                        </a>
+
+                    </li>
+                    <li class="nav-item mt-4">
+                        <a class="nav-link text-white" href="#">
+                            <i class="fa-solid fa-bullhorn"></i>&nbsp;&nbsp;Pengumuman
+                        </a>
+                        <hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="program.html">
+                            <i class="fa-solid fa-book"></i>&nbsp;&nbsp;Program Pendidikan
+                        </a>
+                        <hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Fasilitas.html">
+                            <i class="fa-solid fa-house-medical"></i>&nbsp;&nbsp;Fasilitas
+                        </a>
+                        <hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Lembaga.html">
+                            <i class="fa-solid fa-building-columns"></i>&nbsp;&nbsp;Lembaga
+                        </a>
+                        <hr class="bg-secondary">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="">
+                            <i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;Keluar
+                        </a>
+                        <hr class="bg-secondary">
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-10 p-5 pt-5">
+                <h3>
+                    <i class="fa-solid fa-bullhorn m-2"></i>Pengumuman</h3>
+                <hr>
+                <div class="pengumuman">
+                    <a href="" class="btn btn-success mb-3"><i class="fa-solid fa-plus m-2"></i>Tambah Data</a>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Judul</th>
+                                <th scope="col">Deskripsi</th>
+                                <th scope="col">Aksi</th>
+                            </tr>
+                        </thead>
+                        <div class="p-2">
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><img src="pengumuman.png"  style="width: 200px;"></td>
+                                <td><b>Wisuda 398 Lulusan Institut Teknologi Del</b></td>
+                                <td>
+                                    <textarea rows="4" cols="50">Pada Hari Sabtu 23 September 2023, Institut Teknologi Del melaksanakan....</textarea>
+                                </td>
+                                <td>
+                                    <div class="icon-container">
+                                        <i class="fa-solid fa-pen-to-square p-3 bg-primary text-white rounded"></i>
+                                        <i class="fa-solid fa-trash p-3 bg-danger text-white rounded"></i>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><img src="Pengumuman1.jpg" style="width: 200px;"></td>
+                                <td><b>Pengukuhan 483 Mahasiswa IT Del Angkatan XXIII dan Dies Natalis ke XXII</b></td>
+                                <td>
+                                    <textarea rows="4" cols="50">Sebagai pembuka, Wakil Rektor Bidang Akademik dan Kemahasiswaan, ....</textarea>
+                                </td>
+                                <td>
+                                    <div class="icon-container">
+                                        <i class="fa-solid fa-pen-to-square p-3 bg-primary text-white rounded"></i>
+                                        <i class="fa-solid fa-trash p-3 bg-danger text-white rounded"></i>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><img src="pengumuman3.jpeg" style="width: 200px; height: 150px;;"></td>
+                                <td><b>Job Fair Institut Teknologi Del di Pekan Raya Sumatera Utara (PRSU) 2023</b></td>
+                                <td>
+                                    <textarea rows="4" cols="50">Dilanjutkan dengan kata Sambutan dari Ketua Dewan....</textarea>
+                                </td>
+                                <td>
+                                    <div class="icon-container">
+                                        <i class="fa-solid fa-pen-to-square p-3 bg-primary text-white rounded"></i>
+                                        <i class="fa-solid fa-trash p-3 bg-danger text-white rounded"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </div>
+                    </table>
+
+                </div>
+                <nav aria-label="Page navigation example" style="margin-top: 1rem;">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Lanjut</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Sebelum</a></li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+
+        
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="admin.js"></script>
+    </body>
+
+</html>
